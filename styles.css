@@ -1,0 +1,158 @@
+/* Estilos generales para la página */
+body {
+    background-image: url('assets/img/kplantilla\ storie\ .png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Estilos para el contenido */
+.content {
+    text-align: center;
+    padding: 1.25em; /* Espacio entre el contenido y los bordes */
+}
+
+.centered-logo {
+    display: block;
+    margin: 0 auto; /* Esto centra horizontalmente el contenido */
+}
+
+.content div {
+    padding: 0.625em;
+    margin: 0;
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #004EA1;
+    color: #fff;
+    text-align: center;
+    padding: 0.625em;
+}
+
+/* Estilos para las divisiones en el cuerpo */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    flex: 1;
+    padding: 0.625em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.column img {
+    display: block;
+    margin-bottom: 1.25em;
+    margin: 0 auto; /* Centra horizontalmente las imágenes */
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 0.625em;
+}
+
+.social-links a {
+    text-align: center;
+}
+
+.logo {
+    width: 1.875em;
+    height: 1.875em;
+    align-items: center;
+}
+
+/* Estilos específicos para pantallas más pequeñas */
+@media (max-width: 48em) {
+    .content div {
+        font-size: 0.875em; /* Reducir el tamaño del texto en pantallas pequeñas */
+    }
+
+    .column img {
+        max-width: 100%; /* Evitar que las imágenes sean más anchas que su contenedor en pantallas pequeñas */
+    }
+
+    /* Puedes agregar más estilos específicos para pantallas pequeñas según tus necesidades */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Por defecto, uno debajo del otro */
+}
+
+.column {
+    margin: 1rem; /* Espacio entre los elementos */
+}
+
+/* Estilos específicos para pantallas más grandes (PC) */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; /* Uno al lado del otro en pantallas más grandes */
+        align-items: center; /* Alinea verticalmente en el centro */
+    }
+
+    .column {
+        flex: 1;
+        margin: 1rem;
+    }
+}
+
+/* Estilos para el div .contador */
+.contador {
+    margin-top: 1.25em;
+    padding: 1.25em;
+    text-align: center;
+    border: 0.125em solid #fff; /* Añade bordes de 0.125rem de ancho en color blanco */
+    border-radius: 0.625em; /* Añade esquinas redondeadas */
+    box-shadow: 0em 0em 0.625em rgba(255, 255, 255, 0.5); /* Añade una sombra sutil */
+    max-width: 150em;
+}
+
+
+.formulario {
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.formulario iframe {
+    display: block; /* Hace que el iframe sea un bloque para centrar verticalmente */
+    margin: 0 auto; /* Centra el iframe horizontalmente */
+    max-width: 100%; /* Asegura que el iframe se ajuste al ancho del contenedor */
+
+    /* Estilo adicional para dispositivos móviles */
+    @media (max-width: 768px) {
+        height: 800px; /* Ajusta la altura para dispositivos móviles */
+    }
+}
+
+#fecha {
+    line-height: 1em;
+    font-size: 300%;
+    color: white;
+    margin: 0.3125em;
+}
+
+@media (max-width: 48em) {
+    #fecha {
+        font-size: 150%;
+        margin: 0.3125em;
+    }
+}
+
+@media (max-width: 30em) {
+    #fecha {
+        font-size: 90%;
+    }
+}
