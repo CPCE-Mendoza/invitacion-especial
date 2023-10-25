@@ -133,7 +133,7 @@ footer {
 
     /* Estilo adicional para dispositivos móviles */
     @media (max-width: 768px) {
-        height: 800px; /* Ajusta la altura para dispositivos móviles */
+        height: 1000px; /* Ajusta la altura para dispositivos móviles */
     }
 }
 
