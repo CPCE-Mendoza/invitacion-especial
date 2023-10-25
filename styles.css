@@ -61,7 +61,7 @@ footer {
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 0.625em;
+    gap: 1em;
 }
 
 .social-links a {
