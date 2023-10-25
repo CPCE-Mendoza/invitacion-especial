@@ -146,13 +146,13 @@ footer {
 
 @media (max-width: 48em) {
     #fecha {
-        font-size: 150%;
+        font-size: 170%;
         margin: 0.3125em;
     }
 }
 
 @media (max-width: 30em) {
     #fecha {
-        font-size: 90%;
+        font-size: 110%;
     }
 }
