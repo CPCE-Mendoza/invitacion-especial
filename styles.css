@@ -130,7 +130,7 @@ footer {
     display: block; /* Hace que el iframe sea un bloque para centrar verticalmente */
     margin: 0 auto; /* Centra el iframe horizontalmente */
     max-width: 100%; /* Asegura que el iframe se ajuste al ancho del contenedor */
-
+    height: 1000px;
     /* Estilo adicional para dispositivos móviles */
     @media (max-width: 768px) {
         height: 1000px; /* Ajusta la altura para dispositivos móviles */
